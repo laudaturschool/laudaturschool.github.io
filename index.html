@@ -262,6 +262,11 @@ header.lt-open .lt-nav a.is-active{color:#D6FE51 !important}
 .lt-pinfo>p{position:absolute;left:0;right:0;top:calc(100% + 8px);z-index:5;margin:0;padding:12px 14px;background:#151B21;border:1px solid #2A333C;border-radius:14px;font-size:13px !important;line-height:1.45 !important;color:#C9CFD4;box-shadow:0 12px 30px rgba(0,0,0,0.5)}
 }
 .lt-pinfo{display:none}
+video::-webkit-media-controls-start-playback-button{display:none !important;-webkit-appearance:none}
+@media (max-width: 640px){
+#video a[aria-label]>span[aria-hidden]{width:44px !important;height:44px !important;left:14px !important;bottom:14px !important;box-shadow:0 6px 16px rgba(0,0,0,0.4) !important}
+#video a[aria-label]>span[aria-hidden]>svg{width:20px !important;height:20px !important;margin-left:0 !important}
+}
 </style>
 </head>
 <body>
